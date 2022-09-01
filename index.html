@@ -9,23 +9,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div class="view">
-
-   </div> 
+   <div id="view"></div> 
 
    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
    <script src="wScratchPad.min.js"></script>
 
    <script type="text/javascript">
-    $('#elem').wScratchPad({
+    $('#view').wScratchPad({
         size        : 5,          // The size of the brush/scratch.
-        bg          : '#cacaca',  // Background (image path or hex color).
-        fg          : '#6699ff',  // Foreground (image path or hex color).
-        realtime    : true,       // Calculates percentage in realitime.
-        scratchDown : null,       // Set scratchDown callback.
-        scratchUp   : null,       // Set scratchUp callback.
-        scratchMove : null,       // Set scratcMove callback.
-        cursor      : 'crosshair' // Set cursor.
+        bg          : '#f00',  // Background (image path or hex color).
+        fg          : '#000',  // Foreground (image path or hex color).
 });
    </script>
 </body>
